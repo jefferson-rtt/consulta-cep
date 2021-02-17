@@ -8,6 +8,17 @@ body{
   background: rgb(89, 0, 255);
   color: white;
   font-family: Poppins, sans-serif;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  grid-template-areas: 10% 50% 20%;
+}
+
+header h1{
+  fz
+  text-align: center;
 }
 
 .container{
@@ -16,8 +27,8 @@ body{
   margin: 0 auto;
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 #app{
@@ -37,9 +48,16 @@ form.form{
 
 }
 
+.form h3{
+  margin-top: 20px;
+  color: #6a11cb;
+
+  font-weight: 0;
+}
+
 #app input{
   font-family: Poppins, sans-serif;
-  margin: 20px 0;
+  margin: 15px 0;
   width: 250px;
   height: 60px;
   padding: 10px;
@@ -82,7 +100,24 @@ form.form{
 /* content */
 
 main{
-  margin: 20px 0;
+  margin: 40px 0;
   text-align: center;
   color: rebeccapurple;
+}
+
+/* footer */
+.container-footer{
+  text-align: center;
+}
+
+.footer-text{
+  font-size: 14px;
+}
+
+.footer-text a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer-text a:hover{
+  text-decoration: underline;
 }
