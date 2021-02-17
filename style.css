@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(89, 0, 255);
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.container{
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app{
+  background: aliceblue;
+  width: 100%;
+  border-radius: 12px;
+
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+form.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#app input{
+  margin: 20px 0;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  border: none;
+  background: none;
+  outline: transparent;
+  text-align: center;
+  color: rgb(29, 25, 25);
+  font-size: 20px;
+}
+
+#app input::placeholder{
+  font-family: Poppins, sans-serif;
+  color: lightslategrey;
+  font-size: 20px;
+}
+
+#app button{
+  font-family: Poppins, sans-serif;
+
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+  color: aliceblue;
+  font-size: 18px;
+
+  border-radius: 12px;
+  transition: all .2s;
+}
+
+#app button:hover{
+  filter: brightness(90%);
+}
+
+/* content */
+
+main{
+  margin: 20px 0;
+  text-align: center;
+  color: rebeccapurple;
+}
